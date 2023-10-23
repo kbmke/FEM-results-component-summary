@@ -13,6 +13,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Allow percentage-based heights in the application
@@ -148,7 +149,7 @@ h6 {
     .toppara1 {
         text-align: center;
         color: var(--txt);
-        font-weight: 500;
+        font-weight: 700;
         font-size: 1.2rem;
     }
 
@@ -218,7 +219,8 @@ h6 {
     }
 
     .hundred {
-        font-weight: 500;
+        font-weight: 800;
+        color: var(--para2);ß
     }
 
     .btn {
